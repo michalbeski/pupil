@@ -9,8 +9,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "node_modules/testcafe/bin/testcafe.js "saucelabs:Chrome@beta:Windows 10" tests/SmokeTest.ts"
+    "test": "testcafe 'chrome:headless' tests/SmokeTest.ts"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
