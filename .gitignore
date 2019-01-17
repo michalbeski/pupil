@@ -1,5 +1,3 @@
 node_modules
-tests/yarn.lock
 tests/reports/screenshots/
-tests/yarn.lock
 tests/reports/report.html
