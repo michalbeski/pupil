@@ -26,7 +26,7 @@
     "testcafe-browser-provider-saucelabs": "^1.6.1"
   },
     "dependencies": {
-    "debug": "2.6.8",
+    "debug": "2.6.9",
     "jsdoc": "3.4.3",
     "jsdoc-strip-async-await": "0.1.0",
     "pinkie": "2.0.4",
