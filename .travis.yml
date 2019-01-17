@@ -1,13 +1,13 @@
 language: node_js
  node_js: "stable"
 
- before_install:
+before_install:
    - stty cols 80
 
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $264f972b13cd3b0b89eb0f22359b0cdfd736f892 
+  github-token: $GH_TOKEN
   keep-history: true
   on:
     branch: master
